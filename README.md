@@ -42,6 +42,14 @@ Considerando o modelo da Fig 1, pode-se definir uma série de propriedades impor
 >
 > **Propriedade 6:** Uma vez que um fator de composição $M$ é utilizado para definir o tamanho de cada nó, tem-se como altura $h$ da árvore $h = log_m \frac{n+1}{2}$.
 
+# Exemplo 
+
+Para detalhar os conceitos acima apresentados, considere uma estrutura de árvore B capaz de armazenar caracteres do tipo $char$. Nessa, o usuário introduz novos caracteres via terminal e a estrutura vai se formando a medida que essas novas inserções são realizadas. Nessa, o fator de decomposição M é 3 e os elementos a serem inseridos após um tempo de elaboração são: B, Q e F. A Fig 2 detalha as inserções e as decomposições necessárias para garantir a integridade e propriedades da árvore B em questão. 
+
+<p align="center">
+  <img src="imgs/insercao.png" /><br/>
+  <caption>Fig 2. Procedimento de inserção e decomposição da árvore B segundo Cormen at all 2012.</caption>
+</p>
 
 
 # Compilação e Execução
