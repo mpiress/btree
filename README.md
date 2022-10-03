@@ -32,7 +32,7 @@ Considerando o modelo da Fig 1, pode-se definir uma série de propriedades impor
 
 > **Propriedade 1:** A altura de uma árvore B é reduzida se comparada com as árvores até agora apresentadas. Isso, a um custo de se prolongar a estrutura de forma horizontal.
 >
-> **Propriedade 2:** Todo nó em uma árvore B com N registros possui no mínimo N + 1 ponteiros para seus filhos, exceto os nós considerados folhas.
+> **Propriedade 2:** Todo nó em uma árvore B com $N$ registros possui no mínimo $N + 1$ ponteiros para seus filhos, exceto os nós considerados folhas.
 >
 > **Propriedade 3:** A estrutura das folhas se diferem dos nós internos, apresentando uma variável que notificação para folha. Além disso, para algumas estruturas como B+ e B\*, os nós do tipo folha são os únicos a apresentarem dados, os demais nós são utilizados apenas para indexação. 
 >
