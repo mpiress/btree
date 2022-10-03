@@ -40,7 +40,7 @@ Considerando o modelo da Fig 1, pode-se definir uma série de propriedades impor
 >
 > **Propriedade 5:** Existe um número máximo e mínimo de chaves que um nó pode ter. Dado M um fator de controle dos limites de cada nó, tem-se que o mínimo aceitável está em $m - 1$ elementos e o máximo em $2m - 1$, para valores de $m \geq 2$.
 >
-> **Propriedade 6:** Uma vez que essa estrutura apresenta um fator de composição M para definir o tamanho de cada nó, tem-se que a altura da árvore é uma composição desse fator, sendo apresentada como $h = log_m \frac{n+1}{2}$.
+> **Propriedade 6:** Uma vez que um fator de composição $M$ é utilizado para definir o tamanho de cada nó, tem-se como altura $h$ da árvore $h = log_m \frac{n+1}{2}$.
 
 
 
