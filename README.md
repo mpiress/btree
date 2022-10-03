@@ -44,7 +44,9 @@ Considerando o modelo da Fig 1, pode-se definir uma série de propriedades impor
 
 # Exemplo 
 
+<p align="justify">
 Para detalhar os conceitos acima apresentados, considere uma estrutura de árvore B capaz de armazenar caracteres do tipo $char$. Nessa, o usuário introduz novos caracteres via terminal e a estrutura vai se formando a medida que essas novas inserções são realizadas. Nessa, o fator de decomposição M é 3 e os elementos a serem inseridos após um tempo de elaboração são: B, Q e F. A Fig 2 detalha as inserções e as decomposições necessárias para garantir a integridade e propriedades da árvore B em questão. 
+</p>
 
 <p align="center">
   <img src="imgs/insercao.png" /><br/>
