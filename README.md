@@ -65,6 +65,9 @@ Ao contrário da inserção de B, quando Q é introduzido esse produz uma divis�
 Por fim, quando F é inserido esse não só obriga a decomposição da folha responsável por sua alocação como também introduz a necessidade de docomposição para níveis acima. Dessa forma, é possível observar que novos elementos só são introduzidos em níveis intermediários e na raiz caso os níveis abaixo sobram decomposição. Caso contrário, a estrutura é apenas reordenada até se deparar com algum nó que ainda respeita os limites de informação estabelecidos. 
 </p>
 
+<p align="justify">
+Para remoções, o princípio é o mesmo. Caso uma página se mostre com itens abaixo do mínimo aceitável essa inicia um processo de três estágios. Primeiro, é investigado se seu vizinho da direita pode lhe emprestar um item sem se depreciar em qualquer das propriedades. Em caso afirmativo, esse item é deslocado para manter os nós integros e nada mais é realizado. Caso contrário, essa investigação é realizada com seu vizinho esquerdo, para mesma tentativa de redefinição da ordem. Contudo, se nenhum de seus vizinhos pode lhe emprestar um item, a estrutura é refatorada em um nível acima, descendo um item e reduzindo o tamanho da página tida como pai do nó que produziu o problema em menos um item. 
+
 
 # Compilação e Execução
 
