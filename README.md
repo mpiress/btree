@@ -50,7 +50,7 @@ Para detalhar os conceitos acima apresentados, considere uma estrutura de árvor
 
 <p align="center">
   <img src="imgs/insercao.png" /><br/>
-  <caption>Fig 2. Procedimento de inserção e decomposição da árvore B segundo <a href="https://g.co/kgs/XGbHkp">Cormen at all 2012</a>.</caption>
+  <caption>Fig 2. Procedimento de inserção e decomposição da árvore B segundo <a href="https://g.co/kgs/XGbHkp">Cormen at all 2012</a> capítulo 18.</caption>
 </p>
 
 <p align="justify">
