@@ -53,6 +53,18 @@ Para detalhar os conceitos acima apresentados, considere uma estrutura de árvor
   <caption>Fig 2. Procedimento de inserção e decomposição da árvore B segundo <a href="https://g.co/kgs/XGbHkp">Cormen at all 2012</a>.</caption>
 </p>
 
+<p align="justify">
+Note pelo exemplo da Fig 2, que a inserção do item $B$ não afeta a estrutura, uma vez que sua capacidade máxima é atendida corretamente. Nesse caso, o item é inserido em ordem, mantendo então a integridade da estrutura em questão. Além disso, é importante observar que toda nova inserção é sempre realiada em uma folha, mesmo que nós intermediarios apresentem espaço para armazenamento. Fato que condiz com o modelo <i>bottom up</i> anteriormente discutido. 
+</p>
+
+<p align="justify">
+Ao contrário da inserção de B, quando Q é introduzido esse produz uma divisão de página, visto que essa está em seu limite máximo e uma nova inserção não é aceitável. Nesse caso, antes da inserção do novo elemento, a página em questão é dividida e seu elemento mediano é levado para um nível acima. Como o nível observado para a inserção do item mediano, neste caso o caracter $T$, ainda não atingiu seu limite de $2m-1$, esse comporta $T$, o introduzindo de forma ordenada na coleção. Feito isso, um processo de atualização de filhos é realizada para comportar a nova decomposição que foi realizada. 
+</p>
+
+<p align="justify">
+Por fim, quando F é inserido esse não só obriga a decomposição da folha responsável por sua alocação como também introduz a necessidade de docomposição para níveis acima. Dessa forma, é possível observar que novos elementos só são introduzidos em níveis intermediários e na raiz caso os níveis abaixo sobram decomposição. Caso contrário, a estrutura é apenas reordenada até se deparar com algum nó que ainda respeita os limites de informação estabelecidos. 
+</p>
+
 
 # Compilação e Execução
 
