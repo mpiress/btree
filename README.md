@@ -72,7 +72,12 @@ Apresentada por Donald E. Knuth em 1973, a estrutura B* evita as subdivisões po
 </p>
 
 <p align="justify">
-Já na segunda variante, a estrutura em árvore B+, a composição das páginas ou nós leva em consideração dois estágios de representação. Em páginas não folhas, o conteúdo se baseia apenas em indexadores de navegação. Já as folhas são as únicas páginas ou nós que contém de fato dados a serem trabalhados e/ou investigados. Esse modelo é muitas vezes comparado com os famosos índices de dedal encontrados em livros ou dicionários, os quais apresentam direcionadores (i.e., índices) para conteúdos (i.e., folhas).  
+Já na segunda variante, a estrutura em árvore B+, a composição das páginas ou nós leva em consideração dois estágios de representação. Em páginas não folhas, o conteúdo se baseia apenas em indexadores de navegação. Já as folhas são as únicas páginas ou nós que contém de fato dados a serem trabalhados e/ou investigados. Esse modelo é muitas vezes comparado com os famosos índices de dedal encontrados em livros ou dicionários, os quais apresentam direcionadores (i.e., índices) para conteúdos (i.e., folhas). A Fig 3 detalha o conceito para uma árvore B+ para detalhar os níveis de indexação e dados acima citados.   
+</p>
+
+<p align="center">
+  <img src="imgs/arvb2.png" /><br/>
+  <caption>Fig 3. Visão geral da estrutura de dados do tipo árvore B+ segundo wikipedia.</caption>
 </p>
 
 # Exemplo de Manipulação
