@@ -46,7 +46,7 @@ Para compreender o modelo representativo detalhado na Fig 1, é preciso compreen
 > **Propriedade 5:** Existe um número máximo e mínimo de chaves que um nó pode ter. Dado M um fator de controle dos limites de cada nó, tem-se que o mínimo aceitável está em $m - 1$ elementos e o máximo em $2m - 1$, para valores de $m \geq 2$.
 
 
-> **Propriedade 6:** Uma vez que um fator de composição $M$ é utilizado para definir o tamanho de cada nó, tem-se como altura $h$ da árvore $h = log_{m/2} \frac{n+1}{2}$.
+> **Propriedade 6:** Uma vez que um fator de composição $M$ é utilizado para definir o tamanho de cada nó, tem-se como altura $h$ da árvore $h = log_{m/2} (\left \frac{n+1}{2} \right)$.
 
 <p align="justify">
 Definida as propriedades acima, é possível concluir que o conceito <i>bottom up</i> da árvore B é obtido inicializando a construção a partir de um vetor incial de tamanho $2m - 1$. Ao atingir o limite estabelecido no vetor, a estrutura é submetida a um processo de divisão e dois novos filhos com $m - 1$ itens são desenhados para conter os menores e maiores valores do vetor inicial, com a nova raiz representada pelo elemento mediado do conjunto antes da nova inserção que conduziu à subdivisão. Nesse modelo, todas as folhas da estrutura sempre se mantêm alinhadas no mesmo nível hierárquico quanto sua altura o que torna a árvore  B uma estrutura completa (i.e., estrutura com todos as folhas não nulas), logo, <i>auto-balanceada</i>.
