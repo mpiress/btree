@@ -32,15 +32,20 @@ Para compreender o modelo representativo detalhado na Fig 1, é preciso compreen
 </p>
 
 > **Propriedade 1:** A altura de uma árvore B é reduzida se comparada com as árvores até agora apresentadas. Isso, a um custo de se prolongar a estrutura de forma horizontal.
->
+
+
 > **Propriedade 2:** Todo nó em uma árvore B com $N$ registros possui no mínimo $N + 1$ ponteiros para seus filhos, exceto os nós considerados folhas.
->
+
+
 > **Propriedade 3:** A estrutura das folhas se diferem dos nós internos, apresentando uma variável que notificação para folha. Além disso, para algumas estruturas como B+ e B\*, os nós do tipo folha são os únicos a apresentarem dados, os demais nós são utilizados apenas para indexação. 
->
+
+
 > **Propriedade 4:** Todo nó é definido com a seguinte estrutura: i) um valor para indicar o número de elementos no nó; ii) as chaves devem obrigatoriamente estarem dispostas de forma ordenada e; iii) um valor especial deve ser utilizado para indicar se o nó é folha ou não. 
->
+
+
 > **Propriedade 5:** Existe um número máximo e mínimo de chaves que um nó pode ter. Dado M um fator de controle dos limites de cada nó, tem-se que o mínimo aceitável está em $m - 1$ elementos e o máximo em $2m - 1$, para valores de $m \geq 2$.
->
+
+
 > **Propriedade 6:** Uma vez que um fator de composição $M$ é utilizado para definir o tamanho de cada nó, tem-se como altura $h$ da árvore $h = log_{m/2} \frac{n+1}{2}$.
 
 <p align="justify">
