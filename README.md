@@ -76,7 +76,7 @@ Já na segunda variante, a estrutura em árvore B+, a composição das páginas 
 </p>
 
 <p align="center">
-  <img src="imgs/arvb2.png" /><br/>
+  <img src="imgs/B+-tree.png" /><br/>
   <caption>Fig 3. Visão geral da estrutura de dados do tipo árvore B+ segundo wikipedia.</caption>
 </p>
 
